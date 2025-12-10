@@ -4,8 +4,8 @@ import Logo from '../Logo/Logo'
 
 const Navbar = () => {
     const navItems = <>
-      <li className='text-white'><NavLink to="/">Home</NavLink></li>
-          <li className='text-white'><NavLink to="aboutus">AboutUs</NavLink></li>
+      <li className='text-black lg:text-white'><NavLink to="/">Home</NavLink></li>
+          <li className='text-black lg:text-white'><NavLink to="aboutus">AboutUs</NavLink></li>
     </>
        
 
@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow ">
        
       {navItems}
        
